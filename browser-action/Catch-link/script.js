@@ -4,7 +4,7 @@ for(let link of links){
 }
 function cancel(event){
     let target = event.target.closest('a');
-    href=target.getAttribute('href');
+    let href=target.getAttribute('href');
     let isLeaving = confirm(`Leave for ${href}?`);
     if (!isLeaving){
         event.preventDefault();
