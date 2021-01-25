@@ -1,0 +1,1 @@
+they will both run because the removeEventLisener removes new function.
