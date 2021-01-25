@@ -1,0 +1,10 @@
+.div ul {
+  display: none;
+  list-style: none;
+}
+div .menu::before {
+  content: "▶";
+}
+.div .menu.close::before {
+  content: "▼";
+}
