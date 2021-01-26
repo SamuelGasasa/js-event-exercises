@@ -1,4 +1,4 @@
-const div=document.getElementById('div');
+
 const img=document.getElementById('img');
 div.addEventListener('click', moveBall);
 
